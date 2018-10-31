@@ -1,0 +1,9 @@
+html, body {
+    color: #fff;
+}
+nav {
+    background-color: #565cc1;
+}
+#section-hero {
+    background-image: linear-gradient(97deg, #7795f8, #5e72e4 61%, #555abf 99%);
+}
