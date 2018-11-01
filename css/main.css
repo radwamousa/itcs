@@ -1,5 +1,9 @@
 html, body {
     color: #525f7f;
+    font-size: 16px;
+}
+hr {
+    border-top: 2px solid rgba(169, 169, 169, 0.1);
 }
 /* Home Page */
 nav {
@@ -202,4 +206,37 @@ footer .footer-bottom {
 footer .footer-menu a {
     color: grey;
     text-decoration: none;
+}
+/* Profile Page */
+#section-profile-top {
+    background-image: linear-gradient(to bottom, #fad961, #f76b1c);
+    min-height: 500px;
+    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+}
+#section-profile-card {
+    margin-bottom: 40px;
+    margin-top: -330px;
+}
+#section-profile-card .card img {
+    max-width: 240px;
+    border-radius: 150px;
+    margin-top: -110px;
+    margin-bottom: 20px;
+}
+#section-profile-card .card {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.07), 0 15px 35px 0 rgba(50, 50, 93, 0.1);
+    background-color: #ffffff;
+    border: none;
+    margin-bottom: 25px;
+}
+#section-profile-orange {
+    padding-top: 40px;
+    background-color: #f87724;
+}
+#section-profile-recommendations {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#section-profile-recommendations .recommendation img {
+    border-radius: 200px;
 }
