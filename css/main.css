@@ -119,6 +119,9 @@ nav {
     background-color: #ffffff;
     border: none;
 }
+#section-orange img {
+    box-shadow: 0px 5px 40px #00000080;
+}
 #section-team > .container {
     padding-top: 40px;
     padding-bottom: 60px;
@@ -248,4 +251,36 @@ footer .footer-menu a {
 }
 #section-profile-recommendations .recommendation img {
     border-radius: 200px;
+}
+
+@media (max-width: 768px) {
+    #section-profile-recommendations, footer, footer .footer-menu, #section-profile-orange,  #section-profile-orange h4,  #section-card .card-body, #section-services, .contuct-us {
+        text-align: center !important;
+    }
+    #section-profile-recommendations .recommendation img {
+        border-radius: 200px;
+        max-width: 150px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #section-profile-orange img {
+        margin-bottom: 20px;
+    }
+    #section-hero .hero-text {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #section-hero .pr-5 {
+        padding-right: 15px !important;
+    }
+    #section-hero img {
+        transform: rotateZ(0deg);
+    }
+    #section-form .form-div {
+        padding: 50px 35px 70px 35px;
+    }
+    #section-form .form-div h3, #section-form .form-div h5 {
+        text-align: center;
+    }
 }
