@@ -1,6 +1,6 @@
 # itcs
 
-This is final project from study block itcs
+This is final project from study block
 
 Group 1
 
