@@ -1,9 +1,205 @@
 html, body {
-    color: #fff;
+    color: #525f7f;
 }
+/* Home Page */
 nav {
     background-color: #565cc1;
 }
 #section-hero {
     background-image: linear-gradient(97deg, #7795f8, #5e72e4 61%, #555abf 99%);
+    padding-bottom: 175px;
+    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+}
+#section-hero img {
+    transform: rotateZ(5deg);
+    box-shadow: 0px 5px 40px #00000080;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#section-hero .hero-text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#section-hero .hero-text h1 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #fff;
+}
+#section-hero .hero-text p {
+    font-size: 20px;
+    color: #fff;
+}
+#section-card {
+    margin-bottom: 40px;
+    margin-top: -175px;
+}
+#section-card .card {
+    box-shadow: 0 15px 4px 0 rgba(50, 50, 93, 0.01), 0 5px 15px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    border: none;
+    margin-bottom: 25px;
+}
+#section-card .card-body {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+#section-card .card-body h5, #section-orange .card-body h4 {
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+#section-card .card-body .btn {
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#section-card .card-body .badge {
+    text-transform: uppercase;
+}
+#section-card .card-body p {
+    color: #525f7f;
+}
+#section-card .first-card i {
+    color: rgba(138, 152, 235, 0.7);
+}
+#section-card .first-card h5, #section-orange .first-card h4 {
+    color: #5e72e4;
+}
+#section-card .first-card .btn {
+    box-shadow: 0 4px 4px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+    background-color: #5e72e4;
+}
+#section-card .first-card .badge {
+    background-color: #cbd2f6;
+    color: #2643e9;
+}
+#section-card .second-card i {
+    color: rgba(84, 218, 161, 0.5);
+}
+#section-card .second-card h5, #section-orange .second-card h4 {
+    color: #2dce89;
+}
+#section-card .second-card .btn {
+    box-shadow: 0 4px 4px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+    background-color: #2dce89;
+}
+#section-card .second-card .badge {
+    background-color: rgba(147, 231, 195, 0.5);
+    color: #1aae6f;
+}
+#section-card .third-card i {
+    color: rgba(252, 140, 114, 0.5);
+}
+#section-card .third-card h5, #section-orange .third-card h4 {
+    color: #fb6340;
+}
+#section-card .third-card .btn {
+    box-shadow: 0 4px 4px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+    background-color: #fb6340;
+}
+#section-card .third-card .badge {
+    background-color: rgba(254, 201, 189, 0.5);
+    color: #ff3709;
+}
+#section-orange {
+    background-image: linear-gradient(to right, #fb6340, #fbb140);
+    padding-top: 40px;
+    padding-bottom: 60px;
+    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+}
+#section-orange .card {
+    margin-bottom: 25px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.07), 0 15px 35px 0 rgba(50, 50, 93, 0.1);
+    background-color: #ffffff;
+    border: none;
+}
+#section-team > .container {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#section-team .team-members img {
+    border-radius: 180px;
+    margin: auto;
+    max-width: 220px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#section-team .team-members .name {
+    color: #525f7f;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#section-team .team-members .social a {
+    text-decoration: none;
+    padding: 0px 3px;
+    font-size: 20px;
+}
+#section-team .first-member .social a {
+    color: #5e72e4;
+}
+#section-team .contuct-us {
+    border-radius: 4px;
+    box-shadow: 0 16px 48px 0 rgba(0, 0, 0, 0.17);
+    background-image: linear-gradient(to left, #fbb140, #fb6340);
+    padding: 45px 40px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#section-team .contuct-us .btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 4px 6px 0 rgba(50, 50, 93, 0.11);
+}
+#section-services {
+    background-image: linear-gradient(to right, #172b4d, #1a174d);
+    padding-top: 60px;
+    padding-bottom: 340px;
+    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+}
+#section-services .service-icon {
+    color: #5e72e4;
+    background-color: #fff;
+    padding: 12px 15px 12px 15px;
+    font-size: 25px;
+    border-radius: 33px;
+}
+#section-form {
+    margin-top: -300px;
+    margin-bottom: 80px;
+}
+#section-form .form-div {
+    border-radius: 4px;
+    background-image: linear-gradient(to left, #f4f5f7, #f4f4f7);
+    padding: 50px 50px 70px 50px;
+}
+#section-form .form-div .btn {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 4px 6px 0 rgba(50, 50, 93, 0.11);
+    background-color: #172b4d;
+    color: #fff;
+}
+footer {
+    background-color: #f4f5f7;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+footer .fa-twitter-square {
+    color: #1da1f2;
+}
+footer .fa-facebook {
+    color: #3b5999;
+}
+footer .fa-github-square {
+    color: #000;
+}
+footer .fa-linkedin {
+    color: #3b5999;
+}
+footer .footer-bottom {
+    font-weight: bold;
+}
+footer .footer-menu a {
+    color: grey;
+    text-decoration: none;
 }
